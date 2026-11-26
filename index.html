@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CECyTEM Nezahualcóyotl 2 - Comunidad Escolar</title>
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+  <header>
+    <div class="snow">❄️ ❄️ ❄️</div>
+    <h1>CECyTEM Nezahualcóyotl 2</h1>
+    <h2>Comunidad Escolar</h2>
+    <p>INICIO | FOTOS | DESCRIPCIÓN | RESEÑAS</p>
+    <span class="badge">Temporada Navideña</span>
+  </header>
+
+  <main>
+    <!-- INICIO -->
+    <section id="inicio">
+      <h2>🎄 Inicio - Fotos de la Escuela</h2>
+
+      <div class="galeria">
+        <figure>
+          <img src="https://lh5.googleusercontent.com/p/AF1QipNpqyImZ7c_KyH-jXBtELe7uMIaXLJSao1R2tom" alt="Edificio CECyTEM Nezahualcóyotl 2">
+          <figcaption>Foto 1 - Edificio del plantel</figcaption>
+        </figure>
+        <figure>
+          <img src="http://cecytem.edomex.gob.mx/sites/cecytem.edomex.gob.mx/files/images/NEZA%201.jpg" alt="Patio CECyTEM Nezahualcóyotl 2">
+          <figcaption>Foto 2 - Patio / Explanada</figcaption>
+        </figure>
+        <figure>
+          <img src="https://img3.schoolandcollegelistings.com/217/175/1629905022171757.jpg" alt="Entrada CECyTEM Nezahualcóyotl 2">
+          <figcaption>Foto 3 - Entrada del plantel</figcaption>
+        </figure>
+      </div>
+
+      <div class="descripcion">
+        <h3>Descripción de la Escuela</h3>
+        <p>El CECyTEM Plantel Nezahualcóyotl II es una escuela pública del Estado de México donde estudiamos el bachillerato tecnológico. Aquí aprendemos materias académicas y carreras técnicas, participamos en actividades culturales, deportivas y de comunidad.</p>
+        <p><b>Valores:</b> Respeto, responsabilidad, trabajo en equipo y orgullo por nuestra escuela.</p>
+      </div>
+    </section>
+
+    <!-- FORMULARIO -->
+    <section id="resenas">
+      <h2>⭐ Formulario de Reseñas</h2>
+      <p>Cuéntanos cómo es tu experiencia en el CECyTEM Nezahualcóyotl 2</p>
+
+      <form id="formResena">
+        <label>Nombre:</label>
+        <input type="text" id="nombre" placeholder="Escribe tu nombre" required>
+
+        <label>Calificación:</label>
+        <div class="estrellas" id="estrellas">
+          <span data-valor="1">☆</span>
+          <span data-valor="2">☆</span>
+          <span data-valor="3">☆</span>
+          <span data-valor="4">☆</span>
+          <span data-valor="5">☆</span>
+        </div>
+
+        <label>Comentario:</label>
+        <textarea id="comentario" placeholder="Escribe tu reseña..." required></textarea>
+
+        <button type="submit">Enviar Reseña</button>
+      </form>
+
+      <div id="mensaje"></div>
+
+      <h3>Reseñas de la comunidad</h3>
+      <div id="listaResenas"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>CECyTEM Nezahualcóyotl 2 - Hecho por la comunidad escolar 🎄</p>
+  </footer>
+
+  <script src="js/scripts.js"></script>
+</body>
+</html>
